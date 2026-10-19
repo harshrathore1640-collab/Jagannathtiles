@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagannath Tiles Gwalior | Premium Tiles, Marble & Granite</title>
+    <meta name="description" content="Explore premium tiles, elegant marble, durable granite, and modern surface designs at Jagannath Tiles, Jalaipur Chauraha, Gwalior. Contact us for product enquiries.">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Jagannath Tiles Gwalior | Premium Tiles, Marble & Granite">
+    <meta property="og:description" content="Explore premium tiles, elegant marble, and durable granite in Gwalior.">
+    <meta property="og:type" content="website">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        warmWhite: '#FFFFFF',
+                        ivory: '#F8F6F1',
+                        beigeAccent: '#E9DFD1',
+                        deepCharcoal: '#242424',
+                        secondaryText: '#68645E',
+                        premiumGold: '#B69A65',
+                        brandBlack: '#171717',
+                        footerBg: '#202020',
+                        whatsappGreen: '#25D366'
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['DM Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #FFFFFF;
+            color: #242424;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F8F6F1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #B69A65;
+            border-radius: 4px;
+        }
+        .hero-slide {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+        }
+        .hero-slide.active {
+            opacity: 1;
+            position: relative;
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body class="bg-warmWhite text-deepCharcoal antialiased selection:bg-premiumGold selection:text-white">
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed top-24 right-5 z-50 transform translate-x-full transition-transform duration-300 bg-brandBlack text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-3 border border-premiumGold/40">
+        <i class="fa-solid fa-circle-check text-premiumGold text-xl"></i>
+        <div>
+            <h4 class="font-bold text-sm">Success</h4>
+            <p id="toast-msg" class="text-xs text-ivory">Action completed successfully.</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-40 bg-ivory/95 backdrop-blur-md border-b border-beigeAccent/60 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#home" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-lg bg-brandBlack border border-premiumGold/50 flex items-center justify-center text-premiumGold font-serif font-bold text-xl shadow-md group-hover:scale-105 transition-transform">
+                    JT
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif font-bold text-xl tracking-wide text-brandBlack">JAGANNATH TILES</span>
+                    <span class="text-[10px] tracking-widest text-secondaryText uppercase font-sans">Gwalior Showroom</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-secondaryText">
+                <a href="#home" class="hover:text-premiumGold transition-colors">Home</a>
+                <a href="#about" class="hover:text-premiumGold transition-colors">About Us</a>
+                <a href="#tiles" class="hover:text-premiumGold transition-colors">Tiles</a>
+                <a href="#marble" class="hover:text-premiumGold transition-colors">Marble</a>
+                <a href="#granite" class="hover:text-premiumGold transition-colors">Granite</a>
+                <a href="#applications" class="hover:text-premiumGold transition-colors">Applications</a>
+                <a href="#gallery" class="hover:text-premiumGold transition-colors">Gallery</a>
+                <a href="#contact" class="hover:text-premiumGold transition-colors">Contact</a>
+            </nav>
+
+            <!-- CTA Button & Mobile Menu Toggle -->
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 bg-brandBlack hover:bg-brandBlack/90 text-warmWhite border border-premiumGold/40 px-5 py-2.5 rounded-lg text-sm font-medium shadow-md transition-all hover:shadow-lg">
+                    <i class="fa-brands fa-whatsapp text-lg text-whatsappGreen"></i>
+                    <span>Enquire Now</span>
+                </a>
+                <a href="tel:+919770610921" aria-label="Call Jagannath Tiles" class="sm:hidden w-10 h-10 rounded-full bg-beigeAccent flex items-center justify-center text-brandBlack">
+                    <i class="fa-solid fa-phone text-sm"></i>
+                </a>
+                <button id="mobile-menu-btn" aria-label="Toggle Mobile Menu" class="lg:hidden text-brandBlack p-2 focus:outline-none">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full bg-ivory border-b border-beigeAccent shadow-xl py-6 px-6 transition-all">
+            <nav class="flex flex-col gap-4 text-base font-medium text-secondaryText">
+                <a href="#home" class="mobile-link hover:text-premiumGold transition-colors py-1">Home</a>
+                <a href="#about" class="mobile-link hover:text-premiumGold transition-colors py-1">About Us</a>
+                <a href="#tiles" class="mobile-link hover:text-premiumGold transition-colors py-1">Tiles</a>
+                <a href="#marble" class="mobile-link hover:text-premiumGold transition-colors py-1">Marble</a>
+                <a href="#granite" class="mobile-link hover:text-premiumGold transition-colors py-1">Granite</a>
+                <a href="#applications" class="mobile-link hover:text-premiumGold transition-colors py-1">Applications</a>
+                <a href="#gallery" class="mobile-link hover:text-premiumGold transition-colors py-1">Gallery</a>
+                <a href="#contact" class="mobile-link hover:text-premiumGold transition-colors py-1">Contact</a>
+                <div class="pt-4 border-t border-beigeAccent flex flex-col gap-3">
+                    <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 bg-brandBlack text-warmWhite px-5 py-3 rounded-lg text-sm font-medium shadow-md border border-premiumGold/40">
+                        <i class="fa-brands fa-whatsapp text-lg text-whatsappGreen"></i>
+                        <span>WhatsApp Enquire</span>
+                    </a>
+                    <a href="tel:+919770610921" class="flex items-center justify-center gap-2 bg-beigeAccent text-brandBlack px-5 py-3 rounded-lg text-sm font-medium">
+                        <i class="fa-solid fa-phone text-premiumGold"></i>
+                        <span>+91 97706 10921</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen pt-20 flex items-center justify-center overflow-hidden bg-brandBlack">
+        <!-- Slider Backgrounds -->
+        <div class="absolute inset-0 z-0">
+            <!-- Slide 1 -->
+            <div class="hero-slide active absolute inset-0 bg-cover bg-center transform scale-105 transition-transform duration-1000" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop');">
+                <div class="absolute inset-0 bg-gradient-to-r from-brandBlack/95 via-brandBlack/75 to-transparent"></div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="hero-slide absolute inset-0 bg-cover bg-center transform scale-105 transition-transform duration-1000" style="background-image: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1920&auto=format&fit=crop');">
+                <div class="absolute inset-0 bg-gradient-to-r from-brandBlack/95 via-brandBlack/75 to-transparent"></div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="hero-slide absolute inset-0 bg-cover bg-center transform scale-105 transition-transform duration-1000" style="background-image: url('https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=1920&auto=format&fit=crop');">
+                <div class="absolute inset-0 bg-gradient-to-r from-brandBlack/95 via-brandBlack/75 to-transparent"></div>
+            </div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full text-warmWhite">
+            <div class="max-w-2xl">
+                <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-premiumGold/20 border border-premiumGold/50 text-premiumGold text-xs font-semibold tracking-wider uppercase mb-6">
+                    <i class="fa-solid fa-gem"></i> Premium Gwalior Showroom
+                </div>
+                <h1 class="font-serif text-4xl sm:text-6xl font-bold leading-tight mb-6">
+                    Redefine Your Spaces with <span class="text-premiumGold italic">Timeless Surfaces.</span>
+                </h1>
+                <p class="text-base sm:text-lg text-ivory/80 mb-8 font-sans leading-relaxed">
+                    Discover premium tiles, elegant marble, and durable granite for modern homes, architectural projects, and commercial spaces at Jagannath Tiles, Gwalior.
+                </p>
+                <div class="flex flex-wrap items-center gap-4 mb-12">
+                    <a href="#tiles" class="bg-premiumGold hover:bg-premiumGold/90 text-brandBlack font-bold px-8 py-4 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5">
+                        Explore Collections
+                    </a>
+                    <a href="#contact" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl backdrop-blur-sm transition-all">
+                        Visit Our Showroom
+                    </a>
+                </div>
+                <!-- Trust Highlight -->
+                <div class="pt-6 border-t border-white/15 flex flex-wrap items-center gap-6 text-xs sm:text-sm text-ivory/80 font-medium">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-check text-premiumGold"></i> Premium Tiles
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-check text-premiumGold"></i> Elegant Marble
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-check text-premiumGold"></i> Quality Granite
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="absolute bottom-8 right-8 z-20 flex items-center gap-3">
+            <button id="prev-slide" aria-label="Previous Slide" class="w-12 h-12 rounded-full bg-black/50 hover:bg-premiumGold hover:text-brandBlack text-white border border-white/20 flex items-center justify-center transition-all">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div id="slide-indicators" class="flex items-center gap-2 px-2">
+                <span class="w-8 h-2 rounded-full bg-premiumGold transition-all cursor-pointer" data-slide="0"></span>
+                <span class="w-2 h-2 rounded-full bg-white/50 transition-all cursor-pointer" data-slide="1"></span>
+                <span class="w-2 h-2 rounded-full bg-white/50 transition-all cursor-pointer" data-slide="2"></span>
+            </div>
+            <button id="next-slide" aria-label="Next Slide" class="w-12 h-12 rounded-full bg-black/50 hover:bg-premiumGold hover:text-brandBlack text-white border border-white/20 flex items-center justify-center transition-all">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Product Category Showcase Section -->
+    <section class="py-24 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Curated Categories</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Explore Our Surface Categories</h2>
+                <p class="text-secondaryText text-sm sm:text-base">Handpicked architectural floor finishes, wall tiles, natural marble, and durable granite surfaces.</p>
+            </div>
+
+            <!-- 6 Categories Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Category A: Premium Floor Tiles -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" alt="Premium Floor Tiles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Floor Finishes</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Premium Floor Tiles</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Modern floor tiles, polished porcelain surfaces, and contemporary interiors designed for endurance.</p>
+                        </div>
+                        <a href="#tiles" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Category B: Designer Wall Tiles -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800&auto=format&fit=crop" alt="Designer Wall Tiles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Interior Elegance</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Designer Wall Tiles</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Decorative wall tiles, textured surfaces, and modern feature walls that add character to any room.</p>
+                        </div>
+                        <a href="#tiles" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Category C: Marble Collection -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" alt="Marble Collection" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Natural Stone</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Marble Collection</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Natural marble slabs with diverse colors, patterns, and natural veining for luxury spaces.</p>
+                        </div>
+                        <a href="#marble" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Category D: Granite Collection -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Granite Collection" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Durable Stone</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Granite Collection</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Professional black, grey, white, and multicolored granite surfaces for countertops and flooring.</p>
+                        </div>
+                        <a href="#granite" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Category E: Large-Format Tiles -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=800&auto=format&fit=crop" alt="Large-Format Tiles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Seamless Slabs</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Large-Format Tiles</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Modern large-format tiles used in luxury living rooms, commercial spaces, and architecture.</p>
+                        </div>
+                        <a href="#tiles" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Category F: Decorative & Outdoor Tiles -->
+                <div class="group relative bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Decorative and Outdoor Tiles" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/60 via-transparent to-transparent opacity-60"></div>
+                        <span class="absolute top-4 left-4 bg-brandBlack/80 backdrop-blur-md text-premiumGold text-xs font-semibold px-3 py-1 rounded-full">Exterior & Paving</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-brandBlack mb-2">Decorative & Outdoor</h3>
+                            <p class="text-secondaryText text-sm mb-6 leading-relaxed">Textured, patterned, exterior, and outdoor paving tiles built to withstand weather elements.</p>
+                        </div>
+                        <a href="#tiles" class="inline-flex items-center gap-2 text-brandBlack font-semibold text-sm group-hover:text-premiumGold transition-colors">
+                            <span>Explore Collection</span>
+                            <i class="fa-solid fa-arrow-right text-xs transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-warmWhite border-t border-beigeAccent/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Image -->
+                <div class="relative">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-beigeAccent">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" alt="Jagannath Tiles Showroom Display" class="w-full h-[480px] object-cover">
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 hidden sm:block bg-ivory p-6 rounded-2xl border border-beigeAccent shadow-xl max-w-xs">
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-10 h-10 rounded-full bg-premiumGold/20 flex items-center justify-center text-premiumGold">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h4 class="font-serif font-bold text-brandBlack text-base">Gwalior Showroom</h4>
+                        </div>
+                        <p class="text-xs text-secondaryText">Jalaipur Chauraha, Gwalior, Madhya Pradesh. Visit us to explore full slabs and tiles.</p>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div>
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">About Jagannath Tiles</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-6 leading-tight">Beautiful Surfaces. Exceptional Spaces.</h2>
+                    <p class="text-secondaryText text-base mb-6 leading-relaxed">
+                        Jagannath Tiles offers customers a destination to explore tiles, marble, and granite for a wide range of interior and architectural requirements. From stylish residential flooring to sophisticated commercial surfaces, discover materials that complement your design vision and project needs.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-ivory border border-beigeAccent/60">
+                            <i class="fa-solid fa-gem text-premiumGold text-lg mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm mb-1">Tiles, Marble & Granite</h4>
+                                <p class="text-xs text-secondaryText">Curated selection of fine natural stone and tiles.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-ivory border border-beigeAccent/60">
+                            <i class="fa-solid fa-building text-premiumGold text-lg mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm mb-1">Residential & Commercial</h4>
+                                <p class="text-xs text-secondaryText">Surfaces tailored for homes, offices, and projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-6">
+                        <a href="#contact" class="bg-brandBlack hover:bg-brandBlack/90 text-warmWhite font-medium px-8 py-3.5 rounded-xl shadow-md transition-all border border-premiumGold/30">
+                            Visit Showroom Today
+                        </a>
+                        <a href="tel:+919770610921" class="inline-flex items-center gap-2 text-brandBlack font-semibold hover:text-premiumGold transition-colors">
+                            <i class="fa-solid fa-phone text-premiumGold"></i>
+                            <span>+91 97706 10921</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Tiles Collection Section -->
+    <section id="tiles" class="py-24 bg-beigeAccent/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Surface Innovations</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Tiles That Bring Your Vision to Life</h2>
+                <p class="text-secondaryText text-sm sm:text-base">Filter through our extensive variety of gloss, matte, porcelain, marble-look, and decorative ceramic tile selections.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div id="tile-filters" class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-12">
+                <button data-filter="all" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-brandBlack text-warmWhite transition-all shadow-sm">All Tiles</button>
+                <button data-filter="floor" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-ivory hover:bg-beigeAccent text-brandBlack transition-all border border-beigeAccent">Floor Tiles</button>
+                <button data-filter="wall" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-ivory hover:bg-beigeAccent text-brandBlack transition-all border border-beigeAccent">Wall Tiles</button>
+                <button data-filter="marble-look" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-ivory hover:bg-beigeAccent text-brandBlack transition-all border border-beigeAccent">Marble Look</button>
+                <button data-filter="decorative" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-ivory hover:bg-beigeAccent text-brandBlack transition-all border border-beigeAccent">Decorative</button>
+                <button data-filter="outdoor" class="tile-filter-btn px-5 py-2.5 rounded-xl text-sm font-medium bg-ivory hover:bg-beigeAccent text-brandBlack transition-all border border-beigeAccent">Outdoor</button>
+            </div>
+
+            <!-- Tile Cards Grid -->
+            <div id="tile-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tile Item 1 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="marble-look">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" alt="Glossy Marble-Look Porcelain Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Marble Look</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Glossy Marble-Look Porcelain Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">High-gloss vitrified tile offering the luxurious appearance of natural white marble with high durability.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Glossy%20Marble-Look%20Porcelain%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Item 2 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="floor">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800&auto=format&fit=crop" alt="Matte Floor Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Floor Tiles</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Contemporary Matte Floor Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">Anti-skid matte finish designed for modern living areas, bedrooms, and commercial corridors.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Contemporary%20Matte%20Floor%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Item 3 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="wall">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop" alt="Ceramic Wall Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Wall Tiles</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Textured Ceramic Wall Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">Subtle textured ceramic wall finish designed for kitchen backsplashes and bathroom elevations.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Textured%20Ceramic%20Wall%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Item 4 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="decorative">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=800&auto=format&fit=crop" alt="Artistic Feature Wall Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Decorative</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Artistic Feature Wall Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">Geometric and patterned decorative tiles crafted to accent feature walls and entryway spaces.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Artistic%20Feature%20Wall%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Item 5 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="outdoor">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Heavy-Duty Outdoor Paver Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Outdoor</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Heavy-Duty Outdoor Paver Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">Weather-resistant, high-strength outdoor tiles tailored for patios, balconies, and parking driveways.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Heavy-Duty%20Outdoor%20Paver%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tile Item 6 -->
+                <div class="tile-card bg-warmWhite rounded-2xl overflow-hidden shadow-md border border-beigeAccent/60 flex flex-col" data-category="floor">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" alt="Large Format Vitrified Slab Tile" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-brandBlack text-premiumGold text-xs font-semibold px-3 py-1 rounded-full border border-premiumGold/30">Floor Tiles</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Large Format Vitrified Slab Tile</h3>
+                            <p class="text-secondaryText text-xs mb-4">Seamless large-format tiles offering minimal grout lines and expansive visual continuity.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent/60 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-premiumGold">Showroom Display</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Large%20Format%20Vitrified%20Slab%20Tile." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-sm text-whatsappGreen"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marble Collection Section -->
+    <section id="marble" class="py-24 bg-warmWhite">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Luxury Natural Stone</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack">The Natural Elegance of Marble</h2>
+                </div>
+                <p class="text-secondaryText text-sm max-w-md mt-4 md:mt-0">
+                    Explore diverse natural stone selections featuring striking natural veining, polished finishes, and timeless elegance for premium interiors.
+                </p>
+            </div>
+
+            <!-- Marble Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Marble 1 -->
+                <div class="bg-ivory rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Statuario White Marble" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">Polished Finish</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Statuario White Marble</h3>
+                            <p class="text-secondaryText text-xs mb-4">Luxurious white marble with bold grey veining, ideal for living room flooring and feature walls.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Available at Showroom</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Statuario%20White%20Marble." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marble 2 -->
+                <div class="bg-ivory rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Botticino Beige Marble" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">Honed / Polished</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Botticino Beige Marble</h3>
+                            <p class="text-secondaryText text-xs mb-4">Warm beige natural stone creating a sophisticated, welcoming atmosphere in corridors and bedrooms.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Available at Showroom</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Botticino%20Beige%20Marble." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marble 3 -->
+                <div class="bg-ivory rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" alt="Nero Marquina Black Marble" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">High Gloss</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Nero Marquina Black Marble</h3>
+                            <p class="text-secondaryText text-xs mb-4">Striking dark marble with dramatic white lightning veins, perfect for luxury reception desks and tabletops.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Available at Showroom</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Nero%20Marquina%20Black%20Marble." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Granite Collection Section -->
+    <section id="granite" class="py-24 bg-ivory border-t border-beigeAccent/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Durable Natural Stone</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack">Granite Surfaces Made for Lasting Impressions</h2>
+                </div>
+                <p class="text-secondaryText text-sm max-w-md mt-4 md:mt-0">
+                    Discover high-strength black, grey, white, and speckled granite slabs crafted for kitchen countertops, staircases, and robust flooring.
+                </p>
+            </div>
+
+            <!-- Granite Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Granite 1 -->
+                <div class="bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Absolute Black Granite" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">Countertop Grade</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Absolute Black Granite</h3>
+                            <p class="text-secondaryText text-xs mb-4">Deep, uniform black granite renowned for exceptional scratch and heat resistance in kitchens.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Showroom Stock</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Absolute%20Black%20Granite." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Granite 2 -->
+                <div class="bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Steel Grey Granite" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">Polished Slab</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Steel Grey Granite</h3>
+                            <p class="text-secondaryText text-xs mb-4">Sophisticated grey stone with intricate metallic flecks, suited for flooring and staircases.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Showroom Stock</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Steel%20Grey%20Granite." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Granite 3 -->
+                <div class="bg-warmWhite rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-beigeAccent/60 flex flex-col">
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop" alt="Imperial White Granite" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-4 right-4 bg-brandBlack/90 text-premiumGold text-xs font-bold px-3 py-1 rounded-full border border-premiumGold/30">Speckled Finish</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow justify-between">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-brandBlack mb-1">Imperial White Granite</h3>
+                            <p class="text-secondaryText text-xs mb-4">Light white granite accented with delicate grey and pinkish minerals for bright interiors.</p>
+                        </div>
+                        <div class="pt-4 border-t border-beigeAccent flex items-center justify-between">
+                            <span class="text-xs font-semibold text-secondaryText">Showroom Stock</span>
+                            <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Imperial%20White%20Granite." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-brandBlack text-warmWhite px-3.5 py-2 rounded-lg font-semibold text-xs hover:bg-brandBlack/90">
+                                <i class="fa-brands fa-whatsapp text-whatsappGreen text-sm"></i> Enquire
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications and Interior Inspiration Section -->
+    <section id="applications" class="py-24 bg-warmWhite">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Architectural Ideas</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Applications & Interior Inspiration</h2>
+                <p class="text-secondaryText text-sm sm:text-base">Explore realistic examples of how our tiles, marble, and granite transform living rooms, kitchens, bathrooms, and commercial spaces.</p>
+            </div>
+
+            <!-- Inspiration Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="relative rounded-2xl overflow-hidden shadow-md h-80 group">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Living Room Flooring" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-warmWhite">
+                        <h3 class="font-serif text-xl font-bold mb-1">Luxury Living Room Flooring</h3>
+                        <p class="text-ivory/80 text-xs">Pristine marble and large-format tiles reflecting natural illumination.</p>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden shadow-md h-80 group">
+                    <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Kitchen Countertops" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-warmWhite">
+                        <h3 class="font-serif text-xl font-bold mb-1">Granite Kitchen Countertops</h3>
+                        <p class="text-ivory/80 text-xs">Durable black and grey granite surfaces built for culinary workspaces.</p>
+                    </div>
+                </div>
+                <div class="relative rounded-2xl overflow-hidden shadow-md h-80 group">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800&auto=format&fit=crop" alt="Bathroom Interiors" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/80 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-warmWhite">
+                        <h3 class="font-serif text-xl font-bold mb-1">Contemporary Bathroom Walls</h3>
+                        <p class="text-ivory/80 text-xs">Textured ceramic wall tiles and moisture-resistant floor surfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Jagannath Tiles Section -->
+    <section class="py-24 bg-ivory border-t border-beigeAccent/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Our Commitment</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Why Choose Jagannath Tiles</h2>
+                <p class="text-secondaryText text-sm sm:text-base">Dedicated to offering superior surfaces, authentic stone selections, and expert guidance for your projects in Gwalior.</p>
+            </div>
+
+            <!-- 6 Benefit Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Tiles, Marble & Granite</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">A comprehensive selection of natural stone slabs, vitrified floor tiles, and durable granite under one roof.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Modern Surface Designs</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">Diverse aesthetic variations including white marble, matte anti-skid floor tiles, and patterned walls.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Residential Projects</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">Personalized material guidance and collections tailored for home builders, renovators, and villa owners.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Commercial Applications</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">Robust granite slabs and large-format tiles designed for high-traffic commercial spaces and offices.</p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Design Inspiration</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">Showroom displays and expert advice to help you visualize and select materials matching your exact goals.</p>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="p-8 rounded-2xl bg-warmWhite border border-beigeAccent/60 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="w-14 h-14 rounded-xl bg-brandBlack text-premiumGold flex items-center justify-center text-2xl mb-6 shadow-md">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold text-brandBlack mb-3">Direct Showroom Enquiries</h3>
+                    <p class="text-secondaryText text-sm leading-relaxed">Conveniently located at Jalaipur Chauraha in Gwalior with prompt WhatsApp and phone support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections Section -->
+    <section class="py-24 bg-warmWhite">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                <div>
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Design Catalogue</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack">Featured Collections</h2>
+                </div>
+                <p class="text-secondaryText text-sm max-w-md mt-4 md:mt-0">
+                    Hand-curated combinations of white surfaces, beige tiles, black granite, and natural marble designed for harmonious interior styling.
+                </p>
+            </div>
+
+            <!-- Catalogue Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Collection 1 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg h-96">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Elegant White Surfaces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/90 via-brandBlack/30 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-warmWhite">
+                        <span class="text-premiumGold text-xs font-semibold uppercase tracking-widest mb-2 block">Natural Stone</span>
+                        <h3 class="font-serif text-2xl font-bold mb-3">Elegant White Surfaces</h3>
+                        <p class="text-ivory/80 text-xs mb-4">Pristine white marble and porcelain tiles reflecting absolute refinement.</p>
+                        <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Elegant%20White%20Surfaces." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-premiumGold font-semibold text-sm hover:underline">
+                            <span>Enquire Collection</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Collection 2 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg h-96">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Warm Beige Tiles" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/90 via-brandBlack/30 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-warmWhite">
+                        <span class="text-premiumGold text-xs font-semibold uppercase tracking-widest mb-2 block">Warm Tones</span>
+                        <h3 class="font-serif text-2xl font-bold mb-3">Warm Beige Tiles & Marble</h3>
+                        <p class="text-ivory/80 text-xs mb-4">Harmonious beige marble and stone-look tiles creating cozy interiors.</p>
+                        <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Warm%20Beige%20Tiles." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-premiumGold font-semibold text-sm hover:underline">
+                            <span>Enquire Collection</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Collection 3 -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-lg h-96">
+                    <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Premium Black Granite" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-brandBlack/90 via-brandBlack/30 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8 text-warmWhite">
+                        <span class="text-premiumGold text-xs font-semibold uppercase tracking-widest mb-2 block">Durable Granite</span>
+                        <h3 class="font-serif text-2xl font-bold mb-3">Premium Black Granite</h3>
+                        <p class="text-ivory/80 text-xs mb-4">Absolute black and steel grey granite slabs for high-end kitchen counters.</p>
+                        <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20Premium%20Black%20Granite." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-premiumGold font-semibold text-sm hover:underline">
+                            <span>Enquire Collection</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery and Showroom Inspiration with Lightbox -->
+    <section id="gallery" class="py-24 bg-ivory border-t border-beigeAccent/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Visual Showcase</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Product Gallery & Showroom Inspiration</h2>
+                <p class="text-secondaryText text-sm sm:text-base">Click any image to open the high-resolution lightbox view and explore our marble, granite, and tile displays in detail.</p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="0" data-caption="Marble Slabs Display">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" alt="Marble Slabs Display" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="1" data-caption="Granite Slabs & Polished Surfaces">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop" alt="Granite Slabs" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="2" data-caption="Designer Tile Panels">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" alt="Tile Display Panels" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="3" data-caption="Large-Format Tile Installation">
+                    <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=800&auto=format&fit=crop" alt="Large Format Tile" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="4" data-caption="Natural Stone Close-Up Texture">
+                    <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop" alt="Stone Texture" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+                <div class="gallery-item group relative rounded-2xl overflow-hidden shadow-md cursor-pointer h-72 bg-brandBlack" data-index="5" data-caption="Contemporary Wall Cladding">
+                    <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=800&auto=format&fit=crop" alt="Wall Cladding" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-brandBlack/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                        <span class="bg-warmWhite text-brandBlack px-4 py-2 rounded-lg text-xs font-bold shadow-lg border border-premiumGold/30"><i class="fa-solid fa-magnifying-glass-plus mr-2"></i> View Image</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
+        <button id="lightbox-close" class="absolute top-6 right-6 text-white text-3xl hover:text-premiumGold transition-colors focus:outline-none">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button id="lightbox-prev" class="absolute left-4 sm:left-8 text-white text-2xl sm:text-4xl hover:text-premiumGold transition-colors focus:outline-none bg-black/50 p-3 rounded-full">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="max-w-4xl max-h-[80vh] flex flex-col items-center">
+            <img id="lightbox-img" src="" alt="Enlarged Gallery View" class="max-h-[70vh] max-w-full object-contain rounded-lg shadow-2xl">
+            <p id="lightbox-caption" class="text-white text-sm sm:text-base mt-4 font-serif text-center"></p>
+        </div>
+        <button id="lightbox-next" class="absolute right-4 sm:right-8 text-white text-2xl sm:text-4xl hover:text-premiumGold transition-colors focus:outline-none bg-black/50 p-3 rounded-full">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Customer Enquiry Form Section -->
+    <section class="py-24 bg-warmWhite">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-ivory rounded-3xl p-8 sm:p-12 shadow-xl border border-beigeAccent">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Get in Touch</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Customer Enquiry Form</h2>
+                    <p class="text-secondaryText text-sm">Fill out your requirements below, and our team will connect with you promptly via WhatsApp.</p>
+                </div>
+
+                <form id="enquiry-form" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="full-name" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Full Name *</label>
+                            <input type="text" id="full-name" required class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors" placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label for="phone-number" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Phone Number *</label>
+                            <input type="tel" id="phone-number" required class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors" placeholder="+91 98765 43210">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label for="product-interest" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Product Interest *</label>
+                            <select id="product-interest" class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors">
+                                <option value="Tiles">Tiles (Floor/Wall/Outdoor)</option>
+                                <option value="Marble">Marble Slabs</option>
+                                <option value="Granite">Granite Surfaces</option>
+                                <option value="Other">Other Collections</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="project-type" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Project Type *</label>
+                            <select id="project-type" class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors">
+                                <option value="Residential">Residential</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Renovation">Renovation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="approx-quantity" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Approximate Quantity (Optional)</label>
+                        <input type="text" id="approx-quantity" class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors" placeholder="e.g. 1000 sq.ft or kitchen countertop">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-xs font-bold uppercase tracking-wider text-brandBlack mb-2">Message / Specifications *</label>
+                        <textarea id="message" rows="4" required class="w-full bg-warmWhite border border-beigeAccent rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-premiumGold transition-colors" placeholder="Share specific details or questions about your requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brandBlack hover:bg-brandBlack/90 text-warmWhite font-semibold py-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 border border-premiumGold/40">
+                        <i class="fa-brands fa-whatsapp text-xl text-whatsappGreen"></i>
+                        <span>Submit Enquiry via WhatsApp</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="py-24 bg-ivory border-t border-beigeAccent/50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Common Questions</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-4">Frequently Asked Questions</h2>
+                <p class="text-secondaryText text-sm">Find answers regarding our tiles, marble, granite, showroom visits, and enquiry procedures.</p>
+            </div>
+
+            <!-- Accordion Items -->
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>What products does Jagannath Tiles offer?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        We offer a premium selection of tiles (floor, wall, decorative, outdoor), natural marble slabs, and durable granite surfaces.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>What types of floor and wall tiles are available?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        We provide glossy floor tiles, matte anti-skid tiles, marble-look porcelain, ceramic wall tiles, large-format slabs, and textured outdoor pavers.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>Do you offer marble and granite?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Yes, we offer a wide range of natural marble slabs (white, beige, dark veined) as well as premium granite for kitchen countertops and flooring.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>Can I enquire about products for residential projects?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Yes, we cater to residential home builders, villas, and apartment renovators across Gwalior and nearby areas.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>Can I enquire about materials for commercial projects?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Yes, we supply durable granite and large-format tiles suitable for commercial showrooms, offices, and large developments.
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>How can I check product availability?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Please contact our team via phone or WhatsApp with your specific surface requirements, and we will confirm stock status.
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>How can I request product details?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        You can fill out our enquiry form on the website or message us directly on WhatsApp at +91 7024564957 for prompt assistance.
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>Where is Jagannath Tiles located?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Our showroom is located at Jalaipur Chauraha, Gwalior, Madhya Pradesh, India.
+                    </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>How can I contact the business on WhatsApp?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        You can click any WhatsApp button across the website or message us directly at +91 7024564957.
+                    </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="faq-item bg-warmWhite rounded-2xl border border-beigeAccent overflow-hidden shadow-sm">
+                    <button class="faq-btn w-full px-6 py-5 text-left font-serif font-bold text-brandBlack text-lg flex items-center justify-between focus:outline-none">
+                        <span>Can I visit the showroom to explore the collections?</span>
+                        <i class="fa-solid fa-chevron-down text-premiumGold transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-secondaryText text-sm leading-relaxed">
+                        Yes! We welcome homeowners, architects, and contractors to visit our Gwalior showroom and experience our collections in person.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Showroom Location Section -->
+    <section id="contact" class="py-24 bg-warmWhite">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div>
+                    <span class="text-premiumGold font-semibold uppercase tracking-widest text-xs mb-3 block">Reach Out</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brandBlack mb-6">Visit Our Showroom</h2>
+                    <p class="text-secondaryText text-base mb-8 leading-relaxed">
+                        We invite architects, interior designers, contractors, and homeowners to visit our Gwalior showroom to inspect natural stone textures and tile finishes first-hand.
+                    </p>
+
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-ivory border border-beigeAccent flex items-center justify-center text-premiumGold text-xl flex-shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm uppercase tracking-wider mb-1">Showroom Location</h4>
+                                <p class="text-secondaryText text-sm">Jalaipur Chauraha, Gwalior, Madhya Pradesh, India.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-ivory border border-beigeAccent flex items-center justify-center text-premiumGold text-xl flex-shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm uppercase tracking-wider mb-1">Primary Contact Number</h4>
+                                <a href="tel:+919770610921" class="text-secondaryText text-sm hover:text-premiumGold transition-colors">+91 97706 10921</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-ivory border border-beigeAccent flex items-center justify-center text-premiumGold text-xl flex-shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm uppercase tracking-wider mb-1">WhatsApp Number</h4>
+                                <a href="https://wa.me/7024564957" target="_blank" rel="noopener noreferrer" class="text-secondaryText text-sm hover:text-premiumGold transition-colors">+91 70245 64957</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-ivory border border-beigeAccent flex items-center justify-center text-premiumGold text-xl flex-shrink-0">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm uppercase tracking-wider mb-1">Email Address</h4>
+                                <a href="mailto:srpit921@gmail.com" class="text-secondaryText text-sm hover:text-premiumGold transition-colors">srpit921@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-ivory border border-beigeAccent flex items-center justify-center text-premiumGold text-xl flex-shrink-0">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-brandBlack text-sm uppercase tracking-wider mb-1">Instagram Handle</h4>
+                                <a href="https://instagram.com/jagannath_tiles" target="_blank" rel="noopener noreferrer" class="text-secondaryText text-sm hover:text-premiumGold transition-colors">@jagannath_tiles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-4">
+                        <a href="tel:+919770610921" class="bg-brandBlack hover:bg-brandBlack/90 text-warmWhite font-semibold px-6 py-3.5 rounded-xl shadow-md transition-all inline-flex items-center gap-2 border border-premiumGold/30">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Click to Call</span>
+                        </a>
+                        <a href="https://maps.google.com/?q=Jalaipur+Chauraha+Gwalior+Madhya+Pradesh" target="_blank" rel="noopener noreferrer" class="bg-ivory hover:bg-beigeAccent text-brandBlack border border-beigeAccent font-semibold px-6 py-3.5 rounded-xl transition-all inline-flex items-center gap-2">
+                            <i class="fa-solid fa-map-location-dot text-premiumGold"></i>
+                            <span>Get Directions</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed / Card -->
+                <div class="rounded-3xl overflow-hidden shadow-xl border border-beigeAccent bg-ivory h-[500px] relative">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.5!2d78.18!3d26.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSmFsYWlwdXIgQ2hhdXJhaGEsIEd3YWxpb3IsIE1hZGh5YSBQcmFkZXNo!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Jagannath Tiles Showroom Location Map">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Call and WhatsApp Buttons -->
+    <div class="fixed bottom-6 right-6 z-40 flex flex-col gap-3">
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/7024564957?text=Hello%20Jagannath%20Tiles,%20I%20would%20like%20to%20enquire%20about%20your%20tiles,%20marble,%20and%20granite%20collections." target="_blank" rel="noopener noreferrer" aria-label="Chat with Jagannath Tiles on WhatsApp" class="group relative w-14 h-14 rounded-full bg-whatsappGreen text-white flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+            <span class="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-brandBlack text-white text-xs px-3 py-1.5 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-premiumGold/30">
+                Chat with Jagannath Tiles on WhatsApp
+            </span>
+        </a>
+        <!-- Floating Call Button -->
+        <a href="tel:+919770610921" aria-label="Call Jagannath Tiles" class="group relative w-14 h-14 rounded-full bg-brandBlack text-warmWhite border border-premiumGold/50 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">
+            <i class="fa-solid fa-phone text-xl text-premiumGold"></i>
+            <span class="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-brandBlack text-white text-xs px-3 py-1.5 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-premiumGold/30">
+                Call Jagannath Tiles
+            </span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-footerBg text-warmWhite pt-16 pb-12 border-t border-beigeAccent/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+                <!-- Col 1: Brand Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-lg bg-brandBlack border border-premiumGold/50 flex items-center justify-center text-premiumGold font-serif font-bold text-xl">
+                            JT
+                        </div>
+                        <span class="font-serif font-bold text-2xl tracking-wide text-warmWhite">JAGANNATH TILES</span>
+                    </div>
+                    <p class="text-ivory/70 text-sm mb-6 leading-relaxed max-w-sm">
+                        Your trusted destination in Gwalior for premium tiles, natural marble slabs, and durable granite surfaces.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <a href="https://instagram.com/jagannath_tiles" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-10 h-10 rounded-full bg-white/10 hover:bg-premiumGold hover:text-brandBlack flex items-center justify-center text-white transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/7024564957" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="w-10 h-10 rounded-full bg-white/10 hover:bg-whatsappGreen hover:text-white flex items-center justify-center text-white transition-colors">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a href="tel:+919770610921" aria-label="Phone" class="w-10 h-10 rounded-full bg-white/10 hover:bg-premiumGold hover:text-brandBlack flex items-center justify-center text-white transition-colors">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="font-serif font-bold text-lg text-premiumGold mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-sm text-ivory/80">
+                        <li><a href="#home" class="hover:text-premiumGold transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-premiumGold transition-colors">About Us</a></li>
+                        <li><a href="#applications" class="hover:text-premiumGold transition-colors">Applications</a></li>
+                        <li><a href="#gallery" class="hover:text-premiumGold transition-colors">Showroom Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-premiumGold transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Collections -->
+                <div>
+                    <h4 class="font-serif font-bold text-lg text-premiumGold mb-4">Collections</h4>
+                    <ul class="space-y-2.5 text-sm text-ivory/80">
+                        <li><a href="#tiles" class="hover:text-premiumGold transition-colors">Tiles Collection</a></li>
+                        <li><a href="#marble" class="hover:text-premiumGold transition-colors">Marble Slabs</a></li>
+                        <li><a href="#granite" class="hover:text-premiumGold transition-colors">Granite Surfaces</a></li>
+                        <li><a href="#tiles" class="hover:text-premiumGold transition-colors">Floor & Wall Tiles</a></li>
+                        <li><a href="#tiles" class="hover:text-premiumGold transition-colors">Outdoor Pavers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Location -->
+                <div>
+                    <h4 class="font-serif font-bold text-lg text-premiumGold mb-4">Showroom</h4>
+                    <p class="text-sm text-ivory/80 mb-3 leading-relaxed">
+                        Jalaipur Chauraha, Gwalior, Madhya Pradesh, India.
+                    </p>
+                    <p class="text-sm text-premiumGold font-semibold mb-1">Contact:</p>
+                    <a href="tel:+919770610921" class="text-sm text-ivory/80 hover:text-premiumGold transition-colors">+91 97706 10921</a>
+                    <p class="text-sm text-ivory/80 mt-2"><a href="mailto:srpit921@gmail.com" class="hover:text-premiumGold transition-colors">srpit921@gmail.com</a></p>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright & Credit -->
+            <div class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-ivory/60 gap-4">
+                <p>&copy; 2026 Jagannath Tiles. All rights reserved.</p>
+                <div class="flex items-center gap-6">
+                    <a href="#contact" class="hover:text-premiumGold transition-colors">Privacy Policy</a>
+                    <span>Website Designed by Marwar Infotech</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Hero Slider Logic
+        const slides = document.querySelectorAll('.hero-slide');
+        const indicators = document.querySelectorAll('[data-slide]');
+        const prevBtn = document.getElementById('prev-slide');
+        const nextBtn = document.getElementById('next-slide');
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if(indicators[i]) {
+                    indicators[i].classList.remove('w-8', 'bg-premiumGold');
+                    indicators[i].classList.add('w-2', 'bg-white/50');
+                }
+            });
+            slides[index].classList.add('active');
+            if(indicators[index]) {
+                indicators[index].classList.remove('w-2', 'bg-white/50');
+                indicators[index].classList.add('w-8', 'bg-premiumGold');
+            }
+            currentSlide = index;
+        }
+
+        function nextSlideFunc() {
+            let next = (currentSlide + 1) % slides.length;
+            showSlide(next);
+        }
+
+        function prevSlideFunc() {
+            let prev = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(prev);
+        }
+
+        if(nextBtn && prevBtn) {
+            nextBtn.addEventListener('click', () => {
+                nextSlideFunc();
+                resetTimer();
+            });
+            prevBtn.addEventListener('click', () => {
+                prevSlideFunc();
+                resetTimer();
+            });
+        }
+
+        indicators.forEach(ind => {
+            ind.addEventListener('click', (e) => {
+                let idx = parseInt(e.target.getAttribute('data-slide'));
+                showSlide(idx);
+                resetTimer();
+            });
+        });
+
+        function startTimer() {
+            slideInterval = setInterval(nextSlideFunc, 6000);
+        }
+
+        function resetTimer() {
+            clearInterval(slideInterval);
+            startTimer();
+        }
+
+        startTimer();
+
+        // Tile Category Filtering
+        const filterBtns = document.querySelectorAll('.tile-filter-btn');
+        const tileCards = document.querySelectorAll('.tile-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-brandBlack', 'text-warmWhite');
+                    b.classList.add('bg-ivory', 'text-brandBlack', 'border', 'border-beigeAccent');
+                });
+                btn.classList.remove('bg-ivory', 'text-brandBlack', 'border', 'border-beigeAccent');
+                btn.classList.add('bg-brandBlack', 'text-warmWhite');
+
+                const filter = btn.getAttribute('data-filter');
+
+                tileCards.forEach(card => {
+                    if(filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const btn = item.querySelector('.faq-btn');
+            const content = item.querySelector('.faq-content');
+
+            btn.addEventListener('click', () => {
+                const isOpen = !content.classList.contains('hidden');
+                
+                faqItems.forEach(i => {
+                    i.querySelector('.faq-content').classList.add('hidden');
+                    let ic = i.querySelector('.fa-chevron-down');
+                    if(ic) ic.style.transform = 'rotate(0deg)';
+                });
+
+                if(!isOpen) {
+                    content.classList.remove('hidden');
+                    let ic = btn.querySelector('.fa-chevron-down');
+                    if(ic) ic.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Gallery Lightbox
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const lightboxClose = document.getElementById('lightbox-close');
+        const lightboxPrev = document.getElementById('lightbox-prev');
+        const lightboxNext = document.getElementById('lightbox-next');
+        let currentGalleryIndex = 0;
+
+        const galleryData = Array.from(galleryItems).map(item => {
+            return {
+                src: item.querySelector('img').src,
+                caption: item.getAttribute('data-caption')
+            };
+        });
+
+        function openLightbox(index) {
+            currentGalleryIndex = index;
+            lightboxImg.src = galleryData[index].src;
+            lightboxCaption.textContent = galleryData[index].caption;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            lightbox.classList.remove('flex');
+            lightbox.classList.add('hidden');
+        }
+
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                openLightbox(index);
+            });
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightbox.addEventListener('click', (e) => {
+            if(e.target === lightbox) closeLightbox();
+        });
+
+        lightboxPrev.addEventListener('click', () => {
+            currentGalleryIndex = (currentGalleryIndex - 1 + galleryData.length) % galleryData.length;
+            lightboxImg.src = galleryData[currentGalleryIndex].src;
+            lightboxCaption.textContent = galleryData[currentGalleryIndex].caption;
+        });
+
+        lightboxNext.addEventListener('click', () => {
+            currentGalleryIndex = (currentGalleryIndex + 1) % galleryData.length;
+            lightboxImg.src = galleryData[currentGalleryIndex].src;
+            lightboxCaption.textContent = galleryData[currentGalleryIndex].caption;
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if(lightbox.classList.contains('flex')) {
+                if(e.key === 'Escape') closeLightbox();
+                if(e.key === 'ArrowLeft') lightboxPrev.click();
+                if(e.key === 'ArrowRight') lightboxNext.click();
+            }
+        });
+
+        // Toast Notification Helper
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-msg');
+            toastMsg.textContent = message;
+            toast.classList.remove('translate-x-full');
+            setTimeout(() => {
+                toast.classList.add('translate-x-full');
+            }, 4000);
+        }
+
+        // Enquiry Form WhatsApp Submission
+        const enquiryForm = document.getElementById('enquiry-form');
+        enquiryForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const fullName = document.getElementById('full-name').value;
+            const phone = document.getElementById('phone-number').value;
+            const interest = document.getElementById('product-interest').value;
+            const projectType = document.getElementById('project-type').value;
+            const quantity = document.getElementById('approx-quantity').value;
+            const message = document.getElementById('message').value;
+
+            let waText = `Hello Jagannath Tiles,\n\nNew Customer Enquiry:\n- Name: ${fullName}\n- Phone: ${phone}\n- Product Interest: ${interest}\n- Project Type: ${projectType}`;
+            if(quantity) waText += `\n- Quantity: ${quantity}`;
+            if(message) waText += `\n- Message: ${message}`;
+
+            const encodedURL = `https://wa.me/7024564957?text=${encodeURIComponent(waText)}`;
+            showToast('Opening WhatsApp with your enquiry details...');
+            setTimeout(() => {
+                window.open(encodedURL, '_blank');
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
